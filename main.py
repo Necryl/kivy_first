@@ -1,11 +1,11 @@
 import kivy
 from kivy.app import App
-from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.widget import Widget
 
 
 class MyApp(App):
     def build(self):
-        return 
+        return
 
 
 if __name__ == "__main__":
