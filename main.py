@@ -3,19 +3,15 @@ from kivy.uix.button import Button
 
 
 class FunkyButton(Button):
-    def __init__(self, **kwargs):
-        super(FunkyButton, self).__init__(**kwargs)
-        self.text='hello world'
-        self.pos=(100,100)
-        self.size_hint=(.5,.5)
+    pass
 
 
 class LanguageLearnerApp(App):
     def build(self):
         return FunkyButton(
-            # text='hello world',
-            # pos=(100,100),
-            # size_hint=(.5,.5)
+            pos=(100,100),
+            size_hint=(None,None),
+            size=(500,500)
         )
 
 
