@@ -1,19 +1,10 @@
+import kivy
 from kivy.app import App
-from kivy.uix.button import Button
+from kivy.uix.label import Label
 
-
-class FunkyButton(Button):
-    pass
-
-
-class LanguageLearnerApp(App):
+class MyApp(App):
     def build(self):
-        return FunkyButton(
-            pos=(100,100),
-            size_hint=(None,None),
-            size=(500,500)
-        )
-
+        return Label(text='Tech with Tim')
 
 if __name__ == "__main__":
-    LanguageLearnerApp().run()
+    MyApp().run()
